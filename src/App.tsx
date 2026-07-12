@@ -458,15 +458,15 @@ export default function App() {
             {/* Tag Badge */}
             <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-blue-50 border border-blue-100 text-blue-600 text-xs font-semibold self-center lg:self-start shadow-sm">
               <Zap className="w-3.5 h-3.5 animate-bounce" />
-              <span>Painel Web em Nuvem 100% Autônomo</span>
+              <span>Software em nuvem com hardware opcional</span>
             </div>
 
             <h1 className="font-display font-extrabold text-[2.35rem] sm:text-5xl lg:text-6xl text-[#1D1D1F] leading-[1.08] tracking-tight">
-              Revolucione a <span className="text-blue-600 bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">Comunicação Interna</span> com TV Corporativa
+              Transforme suas <span className="text-blue-600 bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">TVs em um canal</span> que informa equipes e vende mais no ponto de venda
             </h1>
 
             <p className="text-black/60 text-base sm:text-lg leading-relaxed max-w-2xl mx-auto lg:mx-0">
-              Diga adeus a comunicados ignorados por e-mail ou murais obsoletos. Gerencie programações de TV em tempo real, agende campanhas e engaje colaboradores ou clientes instantaneamente com a plataforma mais rápida do Brasil.
+              Gerencie telas remotamente, atualize campanhas em segundos e leve mais impacto para comunicados internos, promoções, ofertas e avisos importantes. Use as TVs que você já tem ou receba a solução completa pronta para ligar.
             </p>
 
             {/* Action Buttons */}
@@ -475,7 +475,7 @@ export default function App() {
                 onClick={() => openLeadModal("Hero CTA Principal")}
                 className="w-full sm:w-auto px-8 py-4 rounded-2xl font-bold text-sm bg-blue-600 hover:bg-blue-700 text-white shadow-lg shadow-blue-600/10 hover:scale-[1.02] active:scale-[0.98] transition-all duration-300 flex items-center justify-center gap-2 cursor-pointer"
               >
-                Solicitar Demonstração Grátis
+                Quero Ver Minha TV em Ação
                 <ArrowRight className="w-4 h-4" />
               </button>
               <a 
@@ -851,12 +851,12 @@ export default function App() {
           
           {/* Section Header */}
           <div className="text-center max-w-3xl mx-auto mb-16 flex flex-col gap-4">
-            <span className="text-xs font-mono uppercase tracking-widest text-blue-600 font-semibold">O Grande Gargalo Comercial</span>
+            <span className="text-xs font-mono uppercase tracking-widest text-blue-600 font-semibold">Como Funciona</span>
             <h2 className="font-display font-bold text-3xl sm:text-4xl text-[#1D1D1F] tracking-tight">
-              Sua equipe ainda ignora comunicados em e-mails e murais impressos?
+              Comece com as TVs que você já tem. Ou receba tudo pronto para ligar.
             </h2>
             <p className="text-black/60 text-sm sm:text-base leading-relaxed">
-              Mural de papel rasga, e-mail vira spam, grupo de Whatsapp cansa. O cérebro humano processa imagens e vídeos até 60.000 vezes mais rápido do que textos isolados.
+              Assine apenas o software para gerenciar suas telas atuais ou escolha a solução completa com equipamento homologado. Em ambos os casos, a instalação é plug-and-play: conectou, entrou na internet e começou a publicar, sem depender de conhecimento técnico.
             </p>
           </div>
 
@@ -869,9 +869,9 @@ export default function App() {
                 <Monitor className="w-6 h-6" />
               </div>
               <div>
-                <h3 className="text-lg font-bold text-[#1D1D1F] mb-2 font-display">Gestão Centralizada</h3>
+                <h3 className="text-lg font-bold text-[#1D1D1F] mb-2 font-display">Mais controle, menos operação manual</h3>
                 <p className="text-black/50 text-sm leading-relaxed">
-                  Gerencie todo o conteúdo de 1 ou 100 telas de forma remota via painel web moderno. Esqueça pen drives no HDMI.
+                  Atualize uma ou várias unidades a partir de um único painel e elimine pendrives, deslocamentos e improvisos na rotina.
                 </p>
               </div>
             </div>
@@ -882,9 +882,9 @@ export default function App() {
                 <Clock className="w-6 h-6" />
               </div>
               <div>
-                <h3 className="text-lg font-bold text-[#1D1D1F] mb-2 font-display">Atualização em Tempo Real</h3>
+                <h3 className="text-lg font-bold text-[#1D1D1F] mb-2 font-display">Campanhas no ar no momento certo</h3>
                 <p className="text-black/50 text-sm leading-relaxed">
-                  Criou uma campanha? Em apenas 10 segundos as atualizações são propagadas automaticamente para todas as suas telas on-line.
+                  Troque ofertas, recados e avisos em segundos para aproveitar picos de venda, ações sazonais e comunicados urgentes.
                 </p>
               </div>
             </div>
@@ -895,9 +895,9 @@ export default function App() {
                 <Zap className="w-6 h-6" />
               </div>
               <div>
-                <h3 className="text-lg font-bold text-[#1D1D1F] mb-2 font-display">Plug & Play Inteligente</h3>
+                <h3 className="text-lg font-bold text-[#1D1D1F] mb-2 font-display">Implantação sem complicação</h3>
                 <p className="text-black/50 text-sm leading-relaxed">
-                  Sem fiação ou infraestrutura complexa. Basta conectar nosso player na entrada HDMI da TV, sintonizar no Wi-Fi e pronto.
+                  Use suas TVs atuais com a assinatura do sistema ou peça software + hardware pronto para uso. Ligou, conectou e começou.
                 </p>
               </div>
             </div>
@@ -908,9 +908,9 @@ export default function App() {
                 <Users className="w-6 h-6" />
               </div>
               <div>
-                <h3 className="text-lg font-bold text-[#1D1D1F] mb-2 font-display">Aumento do Engajamento</h3>
+                <h3 className="text-lg font-bold text-[#1D1D1F] mb-2 font-display">Mais atenção, mais resultado</h3>
                 <p className="text-black/50 text-sm leading-relaxed">
-                  Transforme salas de espera, refeitórios, fábricas ou escritórios em pontos estratégicos de conexão visual de altíssimo impacto.
+                  Transforme recepções, lojas, clínicas, academias e áreas internas em canais que engajam pessoas e ajudam a vender mais.
                 </p>
               </div>
             </div>
@@ -926,12 +926,12 @@ export default function App() {
           
           {/* Section Header */}
           <div className="text-center max-w-3xl mx-auto mb-20 flex flex-col gap-4">
-            <span className="text-xs font-mono uppercase tracking-widest text-blue-600 font-semibold">Tudo o que sua Empresa Precisa</span>
+            <span className="text-xs font-mono uppercase tracking-widest text-blue-600 font-semibold">Tecnologia que Gera Resultado</span>
             <h2 className="font-display font-bold text-3xl sm:text-4xl text-[#1D1D1F] tracking-tight">
-              Recursos de última geração para gerenciar suas TVs
+              Recursos pensados para aumentar impacto, padronização e velocidade
             </h2>
             <p className="text-black/60 text-sm sm:text-base leading-relaxed">
-              Desenvolvemos uma plataforma robusta e intuitiva com a tecnologia de comunicação dinâmica usada por gigantes do setor.
+              Cada função foi desenhada para reduzir operação manual e transformar cada tela em um canal de comunicação e conversão.
             </p>
           </div>
 
@@ -940,26 +940,26 @@ export default function App() {
             <div className="lg:col-span-6 flex flex-col gap-4">
               <div className="inline-flex items-center gap-1.5 text-xs font-semibold text-blue-600 uppercase font-mono tracking-wider">
                 <Calendar className="w-4 h-4" />
-                Agendamentos Práticos
+                Agendamento Inteligente
               </div>
               <h3 className="font-display font-bold text-2xl sm:text-3xl text-[#1D1D1F] leading-tight">
-                Agende suas campanhas por horário, dia ou filial
+                Coloque ofertas e comunicados no ar exatamente quando eles geram mais resultado
               </h3>
               <p className="text-black/60 text-sm sm:text-base leading-relaxed">
-                Programe comunicados de metas para segunda de manhã, dicas de bem-estar na quarta e eventos internos na sexta. Defina datas de expiração automática das mídias para que seu time comercial nunca exiba ofertas desatualizadas.
+                Agende campanhas por horário, dia, unidade ou período e mantenha promoções, metas e avisos sempre atualizados. Isso evita conteúdo vencido, acelera ações comerciais e dá mais previsibilidade à comunicação interna.
               </p>
               <ul className="flex flex-col gap-2.5 mt-2">
                 <li className="flex items-center gap-2 text-sm text-black/70 font-medium">
                   <CheckCircle2 className="w-4 h-4 text-emerald-500 shrink-0" />
-                  Repetição inteligente por recorrência semanal
+                  Ative promoções sazonais sem depender da equipe da loja
                 </li>
                 <li className="flex items-center gap-2 text-sm text-black/70 font-medium">
                   <CheckCircle2 className="w-4 h-4 text-emerald-500 shrink-0" />
-                  Data de início e expiração automáticas
+                  Programe validade automática e evite ofertas desatualizadas
                 </li>
                 <li className="flex items-center gap-2 text-sm text-black/70 font-medium">
                   <CheckCircle2 className="w-4 h-4 text-emerald-500 shrink-0" />
-                  Envio em lote para múltiplos grupos de TV
+                  Publique em lote para várias TVs ou filiais ao mesmo tempo
                 </li>
               </ul>
             </div>
@@ -1048,26 +1048,26 @@ export default function App() {
             <div className="order-1 lg:order-2 lg:col-span-6 flex flex-col gap-4">
               <div className="inline-flex items-center gap-1.5 text-xs font-semibold text-blue-600 uppercase font-mono tracking-wider">
                 <Monitor className="w-4 h-4" />
-                Divisão de Tela (Multi-zone)
+                Layouts que Vendem e Informam
               </div>
               <h3 className="font-display font-bold text-2xl sm:text-3xl text-[#1D1D1F] leading-tight">
-                Múltiplas zonas de informação na mesma tela simultaneamente
+                Mostre mais conteúdo útil na mesma tela sem perder clareza
               </h3>
               <p className="text-black/60 text-sm sm:text-base leading-relaxed">
-                Aumente a retenção visual exibindo mais de um tipo de conteúdo de uma vez só. Mostre o vídeo institucional em destaque na área principal, os boletins de clima ou feeds de redes sociais na barra lateral, e um rodapé contínuo de notícias atualizado em tempo real.
+                Use múltiplos layouts para destacar o que importa em cada ambiente: oferta principal na vitrine, QR Code na recepção, metas no escritório e avisos em áreas internas. Assim, cada tela trabalha a favor da experiência e do faturamento.
               </p>
               <ul className="flex flex-col gap-2.5 mt-2">
                 <li className="flex items-center gap-2 text-sm text-black/70 font-medium">
                   <CheckCircle2 className="w-4 h-4 text-emerald-500 shrink-0" />
-                  Personalização de proporções com templates prontos
+                  Destaque produtos, campanhas e CTAs com mais visibilidade
                 </li>
                 <li className="flex items-center gap-2 text-sm text-black/70 font-medium">
                   <CheckCircle2 className="w-4 h-4 text-emerald-500 shrink-0" />
-                  Integração nativa com feeds de Notícias G1, UOL e portais
+                  Adapte a comunicação para recepção, loja, clínica ou escritório
                 </li>
                 <li className="flex items-center gap-2 text-sm text-black/70 font-medium">
                   <CheckCircle2 className="w-4 h-4 text-emerald-500 shrink-0" />
-                  Relógio digital integrado com ajuste de fuso horário
+                  Mantenha a marca padronizada em todas as unidades
                 </li>
               </ul>
             </div>
@@ -1079,22 +1079,22 @@ export default function App() {
             <div className="lg:col-span-6 flex flex-col gap-4">
               <div className="inline-flex items-center gap-1.5 text-xs font-semibold text-blue-600 uppercase font-mono tracking-wider">
                 <FileText className="w-4 h-4" />
-                Suporte Multiformatos
+                Conteúdo sem Barreiras
               </div>
               <h3 className="font-display font-bold text-2xl sm:text-3xl text-[#1D1D1F] leading-tight">
-                Sua TV, sua grade: Vídeos, Imagens, Notícias e RSS
+                Publique vídeos, imagens e widgets sem travar sua operação
               </h3>
               <p className="text-black/60 text-sm sm:text-base leading-relaxed">
-                Suportamos todos os formatos populares de mercado sem que você precise converter arquivos. Suba arquivos em MP4, imagens PNG/JPG de alta resolução, links diretos do YouTube, animações HTML5 ou widgets dinâmicos de clima, finanças e notícias integradas.
+                Suba os formatos que sua equipe já usa e mantenha a programação viva com notícias, clima, dashboards e conteúdos institucionais. Menos dependência técnica, mais velocidade para comunicar e vender.
               </p>
               <div className="grid grid-cols-2 gap-4 mt-2">
                 <div className="p-3 bg-[#F5F5F7] rounded-xl border border-black/5 shadow-sm">
-                  <span className="font-bold text-[#1D1D1F] text-xs block mb-1">Mídias em Nuvem</span>
-                  <span className="text-xs text-black/50">Vídeos corporativos e imagens em alta definição.</span>
+                  <span className="font-bold text-[#1D1D1F] text-xs block mb-1">Mídias que valorizam campanhas</span>
+                  <span className="text-xs text-black/50">Vídeos, ofertas e peças visuais sem conversões complexas.</span>
                 </div>
                 <div className="p-3 bg-[#F5F5F7] rounded-xl border border-black/5 shadow-sm">
-                  <span className="font-bold text-[#1D1D1F] text-xs block mb-1">Widgets Dinâmicos</span>
-                  <span className="text-xs text-black/50">Tempo, cotação de moedas e senhas eletrônicas.</span>
+                  <span className="font-bold text-[#1D1D1F] text-xs block mb-1">Widgets que mantêm a tela relevante</span>
+                  <span className="text-xs text-black/50">Clima, notícias e painéis dinâmicos para aumentar atenção e permanência.</span>
                 </div>
               </div>
             </div>
@@ -1291,7 +1291,7 @@ export default function App() {
               Planos Flexíveis e Justos para o Tamanho da sua Empresa
             </h2>
             <p className="text-black/60 text-sm sm:text-base leading-relaxed">
-              Sem taxas ocultas, pegadinhas de contratos longos ou multas. Escolha a quantidade de pontos de TV que precisa e pague apenas pelo uso.
+              Assine apenas o software para usar as TVs que você já possui ou fale com nosso time para incluir hardware na mesma solução. Sem taxas ocultas, sem contratos engessados e com implantação simples.
             </p>
 
             {/* Toggle Billing Cycle */}
@@ -1415,11 +1415,11 @@ export default function App() {
                   onClick={() => openLeadModal(`Calculadora - Qtd: ${screensCount} Telas`)}
                   className="w-full py-3.5 rounded-xl text-xs font-bold text-white bg-blue-600 hover:bg-blue-700 shadow-sm transition-all duration-200 flex items-center justify-center gap-1 cursor-pointer"
                 >
-                  Contratar Meu Comercial
+                  Quero Calcular Meu Retorno
                   <ArrowRight className="w-4 h-4" />
                 </button>
                 <span className="text-[9px] text-black/40 block mt-2 font-mono">
-                  *Aparelhos de TV não inclusos. Licença de Software em nuvem.
+                  *Valores acima para a licença do software. TV, player e kit completo podem ser incluídos sob consulta.
                 </span>
               </div>
 
@@ -1629,10 +1629,10 @@ export default function App() {
             <div className="max-w-3xl mx-auto flex flex-col gap-6 relative z-10">
               <span className="text-xs font-mono uppercase tracking-widest text-blue-600 font-bold">Seja Digital Hoje Mesmo</span>
               <h2 className="font-display font-bold text-3xl sm:text-5xl text-[#1D1D1F] tracking-tight leading-tight">
-                Pronto para modernizar seus comunicados e reter a atenção?
+                Uma única campanha bem exibida já pode pagar o investimento
               </h2>
               <p className="text-black/60 text-sm sm:text-base leading-relaxed max-w-2xl mx-auto font-medium">
-                Fale agora mesmo com nossos estrategistas comerciais. Auxiliamos na escolha do player ideal, enviamos uma simulação de plano de conteúdo gratuita e deixamos suas TVs operacionais em tempo recorde.
+                Seja para reduzir falhas na comunicação interna ou aumentar vendas no ponto de venda, o retorno costuma aparecer rápido quando cada tela passa a trabalhar com estratégia. Escolha o formato ideal para a sua operação e descubra quanto sua empresa pode ganhar com uma gestão profissional de telas.
               </p>
 
               <div className="flex flex-col sm:flex-row items-center gap-4 justify-center mt-4">
@@ -1641,7 +1641,7 @@ export default function App() {
                   className="w-full sm:w-auto px-8 py-4 rounded-2xl font-bold text-sm text-white bg-blue-600 hover:bg-blue-700 transition-all duration-200 flex items-center justify-center gap-2 cursor-pointer shadow-sm"
                 >
                   <PhoneCall className="w-4 h-4 text-white" />
-                  Agendar Demonstração Comercial
+                  Quero Calcular Meu Retorno
                 </button>
                 <a
                   href="#recursos"
