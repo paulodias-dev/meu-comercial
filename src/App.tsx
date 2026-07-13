@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect } from "react";
 import { 
   Tv, 
   Settings, 
@@ -34,6 +34,7 @@ import {
   ArrowUp
 } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
+import SEO from "./components/SEO";
 
 // --- Types ---
 interface Testimonial {
@@ -329,6 +330,7 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-[#F5F5F7] text-[#1D1D1F] font-sans overflow-x-hidden selection:bg-blue-600 selection:text-white">
+      <SEO />
       
       {/* --- HEADER --- */}
       <header className="site-header glass-nav shadow-sm">
@@ -449,7 +451,7 @@ export default function App() {
       </header>
 
       {/* --- HERO SECTION --- */}
-      <section className="relative pt-24 pb-16 sm:pt-28 md:pt-32 md:pb-24 lg:pt-36 lg:pb-32 px-4 sm:px-6 lg:px-8">
+      <section id="simulador" className="relative pt-24 pb-16 sm:pt-28 md:pt-32 md:pb-24 lg:pt-36 lg:pb-32 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-center">
           
           {/* Hero Left Content */}

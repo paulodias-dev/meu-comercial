@@ -1,0 +1,29 @@
+{
+  "name": "Meu Comercial - TV Corporativa e Mídia Indoor",
+  "short_name": "Meu Comercial",
+  "description": "Transforme TVs em canais de comunicação e vendas com mídia indoor em nuvem, gestão remota, agendamento e implantação plug-and-play.",
+  "id": "/",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#f5f5f7",
+  "theme_color": "#0066cc",
+  "lang": "pt-BR",
+  "dir": "ltr",
+  "categories": ["business", "marketing", "productivity"],
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
